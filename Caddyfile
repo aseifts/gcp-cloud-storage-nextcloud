@@ -1,0 +1,8 @@
+yourdomain.com {
+    reverse_proxy localhost:8080
+    
+    header {
+        # Standard Security Headers
+        Strict-Transport-Security "max-age=15552000;"
+    }
+}
