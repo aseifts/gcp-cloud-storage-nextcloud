@@ -1,13 +1,8 @@
-# gcp-cloud-storage-nextcloud
-A cloud-native Nextcloud deployment on GCP utilizing GCS (Object Storage) for decoupled data persistence, Caddy for automated SSL, and Identity-Aware Proxy (IAP) for secure administrative access.
-
-![Project Architecture](architecture.png)
-
 # GCP Cloud-Native Nextcloud Deployment
 
 A security-hardened, cloud-native Nextcloud deployment on Google Cloud Platform (GCP). This project demonstrates a production-grade architecture utilizing Container-Optimized OS (COS), decoupled object storage, and Identity-Aware Proxy (IAP) for secure administrative access.
 
-![Project Architecture](GCP.png)
+![Project Architecture](architecture.png)
 
 ## 🛠 Technical Architecture & Implementation
 
