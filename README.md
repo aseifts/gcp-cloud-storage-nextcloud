@@ -2,7 +2,9 @@
 
 A security-hardened, cloud-native Nextcloud deployment on Google Cloud Platform (GCP). This project demonstrates a production-grade architecture utilizing Container-Optimized OS (COS), decoupled object storage, and Identity-Aware Proxy (IAP) for secure administrative access.
 
+
 ![Project Architecture](architecture.png)
+
 
 ## 🛠 Technical Architecture & Implementation
 
