@@ -1,6 +1,7 @@
 # gcp-cloud-storage-nextcloud
 A cloud-native Nextcloud deployment on GCP utilizing GCS (Object Storage) for decoupled data persistence, Caddy for automated SSL, and Identity-Aware Proxy (IAP) for secure administrative access.
 
+```mermaid
 graph TD
     %% User and Internet
     User[User on Public Internet] -->|Resolves Domain| DNS[GCP Cloud DNS/Public DNS]
@@ -34,4 +35,7 @@ graph TD
     end
 
     %% Connect Nextcloud to GCS
+    linkStyle 10 stroke-width:2px,stroke-dasharray: 5 5,stroke:red;
+```
+---
     linkStyle 10 stroke-width:2px,stroke-dasharray: 5 5,stroke:red;
